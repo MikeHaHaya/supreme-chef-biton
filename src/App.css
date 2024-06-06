@@ -29,6 +29,11 @@ nav {
     justify-content: space-between;
     min-height: 90px;
 }
+
+.nav-logo-container {
+    max-width: 140px;
+}
+
 .navbar-menu-container {
     display: none;
 }
@@ -320,6 +325,7 @@ nav {
     }
 }
 @media (max-width: 800px) {
+    /*TODO-- come back here if logo isn't fixed*/
     .nav-logo-container {
         max-width: 140px;
     }
